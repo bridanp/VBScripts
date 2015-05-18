@@ -1,3 +1,7 @@
+// Needed to break pages based on a section of the title page
+// Code work like a find/replace where the admin inputs the Page_Break
+// And the code replaces it with the page break character of Chr(12)
+
 Dim fso, tsin, tsout
 Dim MyLine, MyReport
 Dim strText
